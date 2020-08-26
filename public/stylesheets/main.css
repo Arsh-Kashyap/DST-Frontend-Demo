@@ -8,7 +8,7 @@ h4{
 .head{
 	height:90px;
 	width:130px;
-	padding-left:20px;
+	padding-left:0px;
 	
 	
 }
@@ -16,7 +16,9 @@ h4{
 	background:white;
 }
 #head1{
-	width:180px;
+	width:200px;
+	padding-right:0px;
+	
 		
 }
 .card{
