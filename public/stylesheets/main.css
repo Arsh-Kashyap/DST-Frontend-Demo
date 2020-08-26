@@ -1,0 +1,107 @@
+body{
+	padding-top:0px;
+}
+
+h4{
+	margin-bottom=0rem;
+}
+.head{
+	height:90px;
+	width:130px;
+	padding-left:20px;
+	
+	
+}
+.head-row{
+	background:white;
+}
+#head1{
+	width:200px;
+		
+}
+.card{
+	width:80%;
+	margin:auto;
+}
+.head-row{
+	z-index:1030;
+	width:101%;
+}
+.form{
+	margin-top:83px;
+	margin-bottom:20px;
+}
+
+.pics{
+	height:10em;
+	width:70%;
+	margin:auto;
+	margin-top:10px;
+}
+.container{
+	margin-top:50px;
+	z-index=0;
+}
+.photos{
+	height:360px;
+	margin-bottom:40px;
+}
+
+.fixed-top{
+	    position: fixed;
+   top:50px;
+    right: 0;
+    left: 0;
+    z-index: 1030;
+}
+.form-control{
+	margin-left:auto;
+	margin-right:auto;
+	margin-bottom:8px;
+	
+}
+body{
+	background:#CBC7C7;
+}
+a:hover{
+	background-color:white;
+	color:#3D3636!important;
+}
+#activebutton{
+	background-color:white;
+	color:#3D3636!important;
+}
+nav{
+	margin-top:0px;
+	margin-right:0px;
+	width:100%;	
+	
+}
+.footer{
+	margin-top:10px;
+	margin:0;
+	padding:0 40px;
+	padding-bottom:40px;
+	background-color:black;
+	color:white;
+	vertical-align:center
+}
+.link{
+	color:white;
+}
+.link:hover{
+	font-size:20px;
+}
+.border{
+	border-width:3px!important;
+}
+.h-100:hover{
+	
+	 transform: scale(1.1);
+        box-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
+}
+a.btn:hover{
+	background-color:white;
+	color:#0A38B5!important;
+}
+

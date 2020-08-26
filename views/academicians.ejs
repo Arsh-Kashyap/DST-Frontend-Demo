@@ -1,0 +1,62 @@
+<%- include ("partials/header.ejs") -%>
+<div class="row text-center" style="display:flex; flex-wrap: wrap;">
+<div class="row">
+     <div class="col-sm-6 col-xs-12">
+		 <div class="card form" style="width: 70%;">
+		  <div class="card-body">
+			<h5 class="card-title">Refine Results</h5>
+				<form>
+                <div class="form-group card-block">
+                    <input class="form-control" type="text" name="name" placeholder="College Name">
+					<input class="form-control" type="text" name="name" placeholder="Foreign University Name">
+					<select class="form-control">
+					  <option>Type</option>
+					</select>
+					<select class="form-control">
+					  <option>Department</option>
+					</select>
+                </div>
+                <div class="form-group">
+                    <button class="btn btn-lg btn-primary btn-block">Apply</button>
+                </div>
+            </form>
+		  </div>
+		</div>
+			 
+		 </div>
+	 <div class="col-sm-6 mx-auto center">
+		 
+			 <div class="row row-cols-1 row-cols-md-3">
+				 <div class="col-sm-12">
+					 <h1>
+						 All Academicians
+					 </h1>
+				<p>
+					<i>showing 1 - 6 of 540 academicians</i>
+				</p>	 
+				 </div>
+				 
+  
+			 <% prof.forEach(function(prof){ %>
+	<div class="col-md-12 col-lg-6 photos">
+    	<div class="card h-100">
+      		<img src="<%=prof.image%>" class="pics card-img-top" alt="image of professor">
+      			<div class="card-body">
+        			<h5 class="card-title"><%=prof.name%></h5>
+        				<p class="card-text"><%=prof.college%><br><i>faculty</i>	</p>
+		  					<p>
+                       			<a href="#" class="btn btn-primary">More info</a>
+                   			</p>
+      			</div>
+    	</div>
+  </div>
+			
+        <% }); %>
+		 </div>
+	 
+    </div>
+	 </div>
+</div>
+
+            
+<%- include ("partials/footer.ejs") -%>
