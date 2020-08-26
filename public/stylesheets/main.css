@@ -16,7 +16,7 @@ h4{
 	background:white;
 }
 #head1{
-	width:200px;
+	width:180px;
 	padding-right:0px;
 	
 		
@@ -105,5 +105,11 @@ nav{
 a.btn:hover{
 	background-color:white;
 	color:#0A38B5!important;
+}
+.one{
+	padding-right:0px;	
+}
+.two{
+	padding-left:0px;
 }
 
